@@ -1,0 +1,2 @@
+Hello guys.. uhm, i wrote code while reading learncpp.com, btw
+so the folder names depended on the lesson number :>
