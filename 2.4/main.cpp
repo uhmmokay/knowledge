@@ -1,11 +1,11 @@
 #include <iostream>
 
-int sum(int x, int y)
+double sum(double x, double y)
 {
     return (x + y);
 }
 
-int minus(int x, int y)
+double minus(double x, double y)
 {
     return (x - y);
 }
@@ -21,23 +21,23 @@ double divide(double x, double y)
 }
 
 
-int getinput()
+double getinput()
 {
-    int a {};
+    double a {};
     std::cout << "Enter int: ";
     std::cin >> a;
     return a;
 }
 
-void printdouble(int x)
+void printdouble(double x)
 {
     std::cout << "\n" << "Double: " << (x*2) << "\n";
 }
 
 int main()
 {
-    int x {getinput()}, y {getinput()};
-    int a {sum(x, y)}, b{minus(x, y)};
+    double x {getinput()}, y {getinput()};
+    double a {sum(x, y)}, b{minus(x, y)};
     std::cout << x << " + " << y << " = " << a << "\n";
     std::cout << x << " - " << y << " = " << b << "\n";
     printdouble(getinput());
