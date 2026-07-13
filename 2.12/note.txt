@@ -1,0 +1,3 @@
+Hello my cats :>
+In this program, i'm going to realise a logic, that will calculate P of rectangle, using formule "2(a+b)". Enjoy :)
+P.S. I'm very happy in fact that i've created first cpp program.
