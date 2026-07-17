@@ -1,6 +1,5 @@
 #include "funcs.h"
 #include <cstdlib>
-#include <ios>
 #include <iostream>
 #include <limits>
 
