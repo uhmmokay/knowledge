@@ -30,7 +30,7 @@ int main()
     if (x > y){
         std::cout << "Swapping the values: \n";
     } else {
-        std::cout << "Thanks! :>";
+        std::cout << "Thanks! :> \n";
     }
     forMain::printResult(x, y);
 
