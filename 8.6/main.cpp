@@ -54,7 +54,7 @@ const char getOp()
 
 int main()
 {
-    const int x{getValue(1)}, y{getValue(1)};
+    const int x{getValue(1)}, y{getValue(2)};
     const char Operator{getOp()};
     std::cout << x << " " << Operator << " " << y << " = " << calculate(x, y, Operator) << "\n";
 }
