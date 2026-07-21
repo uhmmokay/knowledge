@@ -2,6 +2,11 @@
 #include <limits>
 #include "phys.h"
 
+namespace Phys
+{
+    constexpr double g {9.8};
+}
+
 double getH()
 {
     double h {};
@@ -12,8 +17,7 @@ double getH()
 
 void printPositionOfBall(int t, double h)
 {
-    constexpr double g {9.8};
-    double S {(g * t * t) / 2};
+    double S {(Phys::g * t * t) / 2};
     double ch {h - S};
     if (ch < 0)
     {
